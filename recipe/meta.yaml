@@ -5,13 +5,9 @@ package:
   version: {{ version }}
 
 source:
-  - url: https://pypi.io/packages/source/s/sphinx-csv-filter/sphinx-csv-filter-{{ version }}.tar.gz
-    sha256: 4e8b6e85d3141e93fc9df51b5530e4565fd50bbc3fcec12306b83cb98b1f942d
-  # TODO: remove if upstream PR is merged https://github.com/crate/sphinx_csv_filter/pull/36
-  - fn: LICENSE-{{ version }}-Apache-2.0
-    url: https://raw.githubusercontent.com/crate/sphinx_csv_filter/{{ version }}/LICENSE
-    sha256: 55a3ec95b45ceb3b2fcfcb5eb8e91a137881edc6962190828d570ec913d1f5ad
-
+  url: https://pypi.io/packages/source/s/sphinx-csv-filter/sphinx-csv-filter-{{ version }}.tar.gz
+  sha256: 4e8b6e85d3141e93fc9df51b5530e4565fd50bbc3fcec12306b83cb98b1f942d
+  
 build:
   number: 0
   noarch: python
@@ -22,6 +18,7 @@ requirements:
     - pip
     - python >=3.3
   run:
+    - docutils <0.19
     - python >=3.3
     - sphinx
 
@@ -38,7 +35,7 @@ about:
   home: https://github.com/crate/sphinx_csv_filter
   summary: Sphinx CSV filter extension for Crate Documentation
   license: Apache-2.0
-  license_file: LICENSE-{{ version }}-Apache-2.0
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
