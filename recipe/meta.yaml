@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: sphinx-csv-filter
@@ -6,11 +6,11 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/s/sphinx-csv-filter/sphinx-csv-filter-{{ version }}.tar.gz
-    sha256: 0a0c0fd495bca6a9f647d84b03d38b5e6ffde17505913c99249d44408ec5e5e6
+    sha256: 4e8b6e85d3141e93fc9df51b5530e4565fd50bbc3fcec12306b83cb98b1f942d
   # TODO: remove if upstream PR is merged https://github.com/crate/sphinx_csv_filter/pull/36
   - fn: LICENSE-{{ version }}-Apache-2.0
     url: https://raw.githubusercontent.com/crate/sphinx_csv_filter/{{ version }}/LICENSE
-    sha256: 1a55759c5503fed638cb06379a23943acd3240438d1128c2e28821360b137f52
+    sha256: 55a3ec95b45ceb3b2fcfcb5eb8e91a137881edc6962190828d570ec913d1f5ad
 
 build:
   number: 0
