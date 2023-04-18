@@ -1,11 +1,11 @@
-About sphinx-csv-filter
-=======================
+About sphinx-csv-filter-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-csv-filter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/crate/sphinx_csv_filter
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-csv-filter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sphinx CSV filter extension for Crate Documentation
 
