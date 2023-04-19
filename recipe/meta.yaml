@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: sphinx-csv-filter
@@ -6,8 +6,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx-csv-filter/sphinx-csv-filter-{{ version }}.tar.gz
-  sha256: 4e8b6e85d3141e93fc9df51b5530e4565fd50bbc3fcec12306b83cb98b1f942d
-  
+  sha256: f63b136b448e9e4f9fb389fd6ac2b0513a894f475e3c79a591bee59c3e70ed42
+
 build:
   number: 0
   noarch: python
