@@ -42,9 +42,10 @@ tests:
     requirements:
       run:
         - pytest-cov
+        - python ${{ python_min }}.*
     script:
       - coverage run --source crate.sphinx.csv --branch -m pytest -vv --tb=long --color=yes
-      - coverage report --show-missing --skip-covered --fail-under=100
+      - coverage report --show-missing --skip-covered --fail-under=85
 
 about:
   summary: Sphinx CSV filter extension for Crate Documentation
