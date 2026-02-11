@@ -3,11 +3,13 @@ About sphinx-csv-filter-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-csv-filter-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/crate/sphinx_csv_filter
+Home: https://pypi.org/project/sphinx-csv-filter
 
 Package license: Apache-2.0
 
 Summary: Sphinx CSV filter extension for Crate Documentation
+
+Development: https://github.com/crate/sphinx_csv_filter
 
 Current build status
 ====================
